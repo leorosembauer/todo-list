@@ -1,20 +1,31 @@
-# 📝 To-Do List em JavaScript
+# 📝 To-Do List
 
-Projeto simples de lista de tarefas (To-Do List) feito com HTML, CSS e JavaScript puro.
+Aplicação simples de lista de tarefas desenvolvida com HTML, CSS e JavaScript puro. Permite adicionar, remover, concluir e filtrar tarefas com persistência local via `localStorage`.
 
-## 📌 Funcionalidades
+## 🚀 Funcionalidades
 
-- Adicionar nova tarefa
-- Marcar como concluída
-- Remover tarefa
-- Interface responsiva e intuitiva
+- ✅ Adicionar tarefas
+- ✅ Marcar/desmarcar como concluída
+- ✅ Remover tarefa individual
+- ✅ Limpar todas as tarefas
+- ✅ Filtro por:
+  - Todas
+  - Pendentes
+  - Concluídas
+- ✅ Contador de tarefas pendentes/concluídas
+- ✅ Salvamento automático com `localStorage`
 
-## 🚀 Como rodar
+## 📦 Estrutura do Projeto
 
-1. Clone o repositório ou baixe os arquivos
-2. Abra o arquivo `index.html` em seu navegador (ou use Live Server no VSCode)
+todo-list/
+├── index.html
+├── style.css
+└── script.js
 
-```bash
-git clone https://github.com/seu-usuario/todo-list.git
-cd todo-list
-code .
+## ▶️ Como rodar
+
+1. Clone o repositório:
+   git clone https://github.com/leorosembauer/todo-list.git
+   cd todo-list
+
+
